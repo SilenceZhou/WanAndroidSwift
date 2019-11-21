@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - DeviceKit (2.3.0)
+  - IQKeyboardManagerSwift (6.5.4)
+  - KakaJSON (1.1.1)
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
+  - KRActivityIndicatorView (3.0.4)
+  - KRProgressHUD (3.4.4):
+    - KRActivityIndicatorView (= 3.0.4)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SnapKit (5.0.1)
+  - SPPermissions (5.0.9):
+    - SPPermissions/Core (= 5.0.9)
+  - SPPermissions/Core (5.0.9)
+  - SwiftEventBus (5.0.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - DeviceKit (~> 2.3.0)
+  - IQKeyboardManagerSwift (~> 6.5.2)
+  - KakaJSON (~> 1.1.1)
+  - Kingfisher (~> 5.9.0)
+  - KRProgressHUD (~> 3.4.4)
+  - RxCocoa (~> 5.0.1)
+  - RxSwift (~> 5.0.1)
+  - SkyFloatingLabelTextField (~> 3.7.0)
+  - SnapKit (~> 5.0.1)
+  - SPPermissions (~> 5.0.9)
+  - SwiftEventBus (~> 5.0.0)
+  - SwiftyJSON (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DeviceKit
+    - IQKeyboardManagerSwift
+    - KakaJSON
+    - Kingfisher
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SPPermissions
+    - SwiftEventBus
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  DeviceKit: da103891aa928d89f64ea8dd8aca738c5f3d8ac0
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  KakaJSON: 18a9fbd9e8381e52751eb6da8536bda8d2944fa1
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  KRActivityIndicatorView: 549db10b9578d58bac73db063d8b544e8970f7f2
+  KRProgressHUD: c3b9a48a0ee4824ea13212ac3f1efa50dca021e3
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SPPermissions: 1f1e6d10e1c3c861b0ab0091f8b3a63ab5d1efd0
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 8854ee643585b4bef08cdce932eedbd7c05c0a98
+
+COCOAPODS: 1.8.4

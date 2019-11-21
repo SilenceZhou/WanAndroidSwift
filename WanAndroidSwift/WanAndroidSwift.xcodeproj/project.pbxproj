@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FC0E452386496D00447119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E442386496D00447119 /* AppDelegate.swift */; };
+		21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E462386496D00447119 /* SceneDelegate.swift */; };
+		21FC0E4C2386496D00447119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FC0E4A2386496D00447119 /* Main.storyboard */; };
+		21FC0E4E2386496E00447119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FC0E4D2386496E00447119 /* Assets.xcassets */; };
+		21FC0E512386496E00447119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FC0E4F2386496E00447119 /* LaunchScreen.storyboard */; };
+		21FC0E5D23864A9800447119 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E5C23864A9800447119 /* TabBarController.swift */; };
+		21FC0E662386727500447119 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E652386727500447119 /* TagViewController.swift */; };
+		21FC0E682386728200447119 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E672386728200447119 /* ProfileViewController.swift */; };
+		21FC0E6A2386728C00447119 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E692386728C00447119 /* DynamicViewController.swift */; };
+		21FC0E6C2386729A00447119 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E6B2386729A00447119 /* ProjectViewController.swift */; };
+		21FC0E6E238672A400447119 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E6D238672A400447119 /* HomeViewController.swift */; };
+		5102881485070C5CE7454816 /* Pods_WanAndroidSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2442F4EF00A7C63D00A31AF /* Pods_WanAndroidSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21FC0E412386496D00447119 /* WanAndroidSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroidSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FC0E442386496D00447119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21FC0E462386496D00447119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21FC0E4B2386496D00447119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21FC0E4D2386496E00447119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21FC0E502386496E00447119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21FC0E522386496E00447119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FC0E58238649ED00447119 /* WanAndroidSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WanAndroidSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		21FC0E5C23864A9800447119 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		21FC0E652386727500447119 /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		21FC0E672386728200447119 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = WanAndroidSwift/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		21FC0E692386728C00447119 /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		21FC0E6B2386729A00447119 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectViewController.swift; path = WanAndroidSwift/ProjectViewController.swift; sourceTree = SOURCE_ROOT; };
+		21FC0E6D238672A400447119 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F35886A06DDB63900B4B62F /* Pods-WanAndroidSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroidSwift.debug.xcconfig"; path = "Target Support Files/Pods-WanAndroidSwift/Pods-WanAndroidSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A06599B0EFC446B7EA94F6AB /* Pods-WanAndroidSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroidSwift.release.xcconfig"; path = "Target Support Files/Pods-WanAndroidSwift/Pods-WanAndroidSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B2442F4EF00A7C63D00A31AF /* Pods_WanAndroidSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanAndroidSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FC0E3E2386496D00447119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5102881485070C5CE7454816 /* Pods_WanAndroidSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FC0E382386496D00447119 = {
+			isa = PBXGroup;
+			children = (
+				21FC0E432386496D00447119 /* WanAndroidSwift */,
+				21FC0E422386496D00447119 /* Products */,
+				F7EC20F99B83EABD65414ACE /* Pods */,
+				AF74C4EB4C92C7A6CB9C713F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21FC0E422386496D00447119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E412386496D00447119 /* WanAndroidSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FC0E432386496D00447119 /* WanAndroidSwift */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E5E2386718A00447119 /* Resource */,
+				21FC0E5F238671B900447119 /* Main */,
+				21FC0E60238671C400447119 /* Home */,
+				21FC0E61238671D300447119 /* Project */,
+				21FC0E62238671F700447119 /* Dynamic */,
+				21FC0E642386720B00447119 /* Tag */,
+				21FC0E632386720200447119 /* Profile */,
+				21FC0E58238649ED00447119 /* WanAndroidSwift-Bridging-Header.h */,
+			);
+			path = WanAndroidSwift;
+			sourceTree = "<group>";
+		};
+		21FC0E5E2386718A00447119 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E4A2386496D00447119 /* Main.storyboard */,
+				21FC0E4D2386496E00447119 /* Assets.xcassets */,
+				21FC0E4F2386496E00447119 /* LaunchScreen.storyboard */,
+				21FC0E522386496E00447119 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		21FC0E5F238671B900447119 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E442386496D00447119 /* AppDelegate.swift */,
+				21FC0E462386496D00447119 /* SceneDelegate.swift */,
+				21FC0E5C23864A9800447119 /* TabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21FC0E60238671C400447119 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E6D238672A400447119 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		21FC0E61238671D300447119 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E6B2386729A00447119 /* ProjectViewController.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		21FC0E62238671F700447119 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E692386728C00447119 /* DynamicViewController.swift */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		21FC0E632386720200447119 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E672386728200447119 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		21FC0E642386720B00447119 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				21FC0E652386727500447119 /* TagViewController.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		AF74C4EB4C92C7A6CB9C713F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2442F4EF00A7C63D00A31AF /* Pods_WanAndroidSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7EC20F99B83EABD65414ACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F35886A06DDB63900B4B62F /* Pods-WanAndroidSwift.debug.xcconfig */,
+				A06599B0EFC446B7EA94F6AB /* Pods-WanAndroidSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FC0E402386496D00447119 /* WanAndroidSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FC0E552386496E00447119 /* Build configuration list for PBXNativeTarget "WanAndroidSwift" */;
+			buildPhases = (
+				6073A6F05EE9E440F4B82A1E /* [CP] Check Pods Manifest.lock */,
+				21FC0E3D2386496D00447119 /* Sources */,
+				21FC0E3E2386496D00447119 /* Frameworks */,
+				21FC0E3F2386496D00447119 /* Resources */,
+				F1C34A2B54DA56A014B8237E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanAndroidSwift;
+			productName = WanAndroidSwift;
+			productReference = 21FC0E412386496D00447119 /* WanAndroidSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FC0E392386496D00447119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = zhouyun;
+				TargetAttributes = {
+					21FC0E402386496D00447119 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 21FC0E3C2386496D00447119 /* Build configuration list for PBXProject "WanAndroidSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21FC0E382386496D00447119;
+			productRefGroup = 21FC0E422386496D00447119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FC0E402386496D00447119 /* WanAndroidSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21FC0E3F2386496D00447119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FC0E512386496E00447119 /* LaunchScreen.storyboard in Resources */,
+				21FC0E4E2386496E00447119 /* Assets.xcassets in Resources */,
+				21FC0E4C2386496D00447119 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6073A6F05EE9E440F4B82A1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndroidSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C34A2B54DA56A014B8237E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroidSwift/Pods-WanAndroidSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WanAndroidSwift/Pods-WanAndroidSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WanAndroidSwift/Pods-WanAndroidSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FC0E3D2386496D00447119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FC0E6A2386728C00447119 /* DynamicViewController.swift in Sources */,
+				21FC0E5D23864A9800447119 /* TabBarController.swift in Sources */,
+				21FC0E662386727500447119 /* TagViewController.swift in Sources */,
+				21FC0E6E238672A400447119 /* HomeViewController.swift in Sources */,
+				21FC0E682386728200447119 /* ProfileViewController.swift in Sources */,
+				21FC0E452386496D00447119 /* AppDelegate.swift in Sources */,
+				21FC0E6C2386729A00447119 /* ProjectViewController.swift in Sources */,
+				21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21FC0E4A2386496D00447119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FC0E4B2386496D00447119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21FC0E4F2386496E00447119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FC0E502386496E00447119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21FC0E532386496E00447119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21FC0E542386496E00447119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FC0E562386496E00447119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F35886A06DDB63900B4B62F /* Pods-WanAndroidSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Y42S7W86;
+				INFOPLIST_FILE = WanAndroidSwift/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silencezhou.WanAndroidSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WanAndroidSwift/WanAndroidSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21FC0E572386496E00447119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06599B0EFC446B7EA94F6AB /* Pods-WanAndroidSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Y42S7W86;
+				INFOPLIST_FILE = WanAndroidSwift/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silencezhou.WanAndroidSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WanAndroidSwift/WanAndroidSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FC0E3C2386496D00447119 /* Build configuration list for PBXProject "WanAndroidSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FC0E532386496E00447119 /* Debug */,
+				21FC0E542386496E00447119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FC0E552386496E00447119 /* Build configuration list for PBXNativeTarget "WanAndroidSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FC0E562386496E00447119 /* Debug */,
+				21FC0E572386496E00447119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FC0E392386496D00447119 /* Project object */;
+}
