@@ -20,7 +20,7 @@ class TabBarController: UITabBarController {
         addChild("项目", "project", ProjectViewController.self)
         addChild("动态", "dynamic",  DynamicViewController.self)
         addChild("标签", "tag",  TagViewController.self)
-        addChild("我的", "profile",  ProjectViewController.self)
+        addChild("我的", "profile",  ProfileViewController.self)
     }
     
     
@@ -32,7 +32,6 @@ class TabBarController: UITabBarController {
         child.navigationItem.title = title
         child.tabBarItem.image = UIImage(named: image)
         child.tabBarItem.selectedImage = UIImage(named: image + "selected")
-        
         
         child.tabBarItem.setTitleTextAttributes([
             NSAttributedString.Key.foregroundColor: UIColor.rgbHex(0x1781D2)
