@@ -1,5 +1,5 @@
 //
-//  DynamicViewController.swift
+//  ViewController.swift
 //  WanAndroidSwift
 //
 //  Created by zhouyun on 2019/11/21.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class DynamicViewController: UIViewController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        
     }
     
 

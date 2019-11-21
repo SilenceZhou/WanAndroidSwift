@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21698D2423867A9700C2A857 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698D2323867A9700C2A857 /* Color+extension.swift */; };
+		2194D6F5238683780063A9B8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194D6F4238683780063A9B8 /* TabBar.swift */; };
+		2194D6F8238685740063A9B8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194D6F7238685740063A9B8 /* NavigationController.swift */; };
+		2194D6FB238692040063A9B8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2194D6FA238692040063A9B8 /* API.swift */; };
 		21FC0E452386496D00447119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E442386496D00447119 /* AppDelegate.swift */; };
 		21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC0E462386496D00447119 /* SceneDelegate.swift */; };
 		21FC0E4C2386496D00447119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FC0E4A2386496D00447119 /* Main.storyboard */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21698D2323867A9700C2A857 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		2194D6F4238683780063A9B8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2194D6F7238685740063A9B8 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = WanAndroidSwift/Module/NavigationController.swift; sourceTree = SOURCE_ROOT; };
+		2194D6FA238692040063A9B8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		21FC0E412386496D00447119 /* WanAndroidSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroidSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FC0E442386496D00447119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FC0E462386496D00447119 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +61,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21698D2123867A3F00C2A857 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2194D6F9238691F20063A9B8 /* Networks */,
+				2194D6F6238685660063A9B8 /* Base */,
+				21FC0E60238671C400447119 /* Home */,
+				21FC0E61238671D300447119 /* Project */,
+				21FC0E62238671F700447119 /* Dynamic */,
+				21FC0E642386720B00447119 /* Tag */,
+				21FC0E632386720200447119 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		21698D2223867A6100C2A857 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				21698D2323867A9700C2A857 /* Color+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2194D6F6238685660063A9B8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2194D6F7238685740063A9B8 /* NavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2194D6F9238691F20063A9B8 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				2194D6FA238692040063A9B8 /* API.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
 		21FC0E382386496D00447119 = {
 			isa = PBXGroup;
 			children = (
@@ -74,13 +120,10 @@
 		21FC0E432386496D00447119 /* WanAndroidSwift */ = {
 			isa = PBXGroup;
 			children = (
+				21698D2223867A6100C2A857 /* Extension */,
 				21FC0E5E2386718A00447119 /* Resource */,
 				21FC0E5F238671B900447119 /* Main */,
-				21FC0E60238671C400447119 /* Home */,
-				21FC0E61238671D300447119 /* Project */,
-				21FC0E62238671F700447119 /* Dynamic */,
-				21FC0E642386720B00447119 /* Tag */,
-				21FC0E632386720200447119 /* Profile */,
+				21698D2123867A3F00C2A857 /* Module */,
 				21FC0E58238649ED00447119 /* WanAndroidSwift-Bridging-Header.h */,
 			);
 			path = WanAndroidSwift;
@@ -103,6 +146,7 @@
 				21FC0E442386496D00447119 /* AppDelegate.swift */,
 				21FC0E462386496D00447119 /* SceneDelegate.swift */,
 				21FC0E5C23864A9800447119 /* TabBarController.swift */,
+				2194D6F4238683780063A9B8 /* TabBar.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -281,13 +325,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FC0E6A2386728C00447119 /* DynamicViewController.swift in Sources */,
+				21698D2423867A9700C2A857 /* Color+extension.swift in Sources */,
 				21FC0E5D23864A9800447119 /* TabBarController.swift in Sources */,
 				21FC0E662386727500447119 /* TagViewController.swift in Sources */,
+				2194D6F8238685740063A9B8 /* NavigationController.swift in Sources */,
 				21FC0E6E238672A400447119 /* HomeViewController.swift in Sources */,
 				21FC0E682386728200447119 /* ProfileViewController.swift in Sources */,
 				21FC0E452386496D00447119 /* AppDelegate.swift in Sources */,
 				21FC0E6C2386729A00447119 /* ProjectViewController.swift in Sources */,
 				21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */,
+				2194D6FB238692040063A9B8 /* API.swift in Sources */,
+				2194D6F5238683780063A9B8 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

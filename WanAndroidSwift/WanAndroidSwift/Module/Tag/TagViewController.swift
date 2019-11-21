@@ -12,8 +12,9 @@ class TagViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.randomColor
+        
+        title = "标签"
     }
     
 

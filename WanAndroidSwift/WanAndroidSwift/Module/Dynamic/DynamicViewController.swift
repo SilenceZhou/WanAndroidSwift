@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  DynamicViewController.swift
 //  WanAndroidSwift
 //
 //  Created by zhouyun on 2019/11/21.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class DynamicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.randomColor
+        title = "动态"
     }
     
 
