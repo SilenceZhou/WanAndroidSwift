@@ -15,5 +15,8 @@ class HomeViewController: UIViewController {
         view.backgroundColor = UIColor.randomColor
         title = "首页"
         
+        NetworkTools.getBanner { arr in
+            print("arr = \(arr)")
+        }
     }
 }
