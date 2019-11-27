@@ -25,6 +25,9 @@
 		B620FDC7238AB71200B72D6D /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FDC6238AB71100B72D6D /* NetworkTools.swift */; };
 		B620FDC9238AC01500B72D6D /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FDC8238AC01500B72D6D /* Banner.swift */; };
 		B620FDD1238AC69900B72D6D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FDD0238AC69900B72D6D /* NavigationController.swift */; };
+		B6AD4EB6238EA4D60060A532 /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */; };
+		B6AD4EB7238EA4D60060A532 /* RxSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */; };
+		B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB8238EAA0C0060A532 /* Operator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		B620FDC6238AB71100B72D6D /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		B620FDC8238AC01500B72D6D /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		B620FDD0238AC69900B72D6D /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
+		B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftViewController.xib; sourceTree = "<group>"; };
+		B6AD4EB8238EAA0C0060A532 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,7 @@
 		21FC0E432386496D00447119 /* WanAndroidSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B6AD4EB3238EA4860060A532 /* Demo */,
 				21698D2223867A6100C2A857 /* Extension */,
 				21FC0E5E2386718A00447119 /* Resource */,
 				21FC0E5F238671B900447119 /* Main */,
@@ -205,6 +212,16 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		B6AD4EB3238EA4860060A532 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */,
+				B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */,
+				B6AD4EB8238EAA0C0060A532 /* Operator.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		F7EC20F99B83EABD65414ACE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6AD4EB7238EA4D60060A532 /* RxSwiftViewController.xib in Resources */,
 				21FC0E512386496E00447119 /* LaunchScreen.storyboard in Resources */,
 				21FC0E4E2386496E00447119 /* Assets.xcassets in Resources */,
 				21FC0E4C2386496D00447119 /* Main.storyboard in Resources */,
@@ -332,6 +350,7 @@
 			files = (
 				21FC0E6A2386728C00447119 /* DynamicViewController.swift in Sources */,
 				21698D2423867A9700C2A857 /* Color+extension.swift in Sources */,
+				B6AD4EB6238EA4D60060A532 /* RxSwiftViewController.swift in Sources */,
 				21FC0E5D23864A9800447119 /* TabBarController.swift in Sources */,
 				21FC0E662386727500447119 /* TagViewController.swift in Sources */,
 				21FC0E6E238672A400447119 /* HomeViewController.swift in Sources */,
@@ -341,6 +360,7 @@
 				21FC0E6C2386729A00447119 /* ProjectViewController.swift in Sources */,
 				21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */,
 				2194D6FB238692040063A9B8 /* API.swift in Sources */,
+				B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */,
 				B620FDC9238AC01500B72D6D /* Banner.swift in Sources */,
 				B620FDC7238AB71200B72D6D /* NetworkTools.swift in Sources */,
 				2194D6F5238683780063A9B8 /* TabBar.swift in Sources */,
