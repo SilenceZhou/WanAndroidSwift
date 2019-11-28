@@ -50,10 +50,23 @@ class RxSwiftViewController: UIViewController {
     }
     
     let disposeBag = DisposeBag()
+    
+    
+    @objc private func tap(_ gesture: UITapGestureRecognizer) {
+        
+    }
 
     let text = BehaviorRelay(value: "双向绑定")
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIView()
+            .zy.color(UIColor.red)
+            .zy.frame(CGRect(x: 100, y: 250, width: 100, height: 100))
+            .zy.addTo(superView: view)
+            .zy.tap(target: self, action: #selector(tap(_:)))
+            
+        
         
         /// 1.双向绑定 VM 和 UI 
         /// 2. 用来做一个临时变量处理 后续操作

@@ -29,6 +29,7 @@
 		B6AD4EB6238EA4D60060A532 /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */; };
 		B6AD4EB7238EA4D60060A532 /* RxSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */; };
 		B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB8238EAA0C0060A532 /* Operator.swift */; };
+		B6E99933239003050032BDC8 /* Prefixtive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E99932239003050032BDC8 /* Prefixtive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
 		B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftViewController.xib; sourceTree = "<group>"; };
 		B6AD4EB8238EAA0C0060A532 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		B6E99932239003050032BDC8 /* Prefixtive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefixtive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +89,12 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
-		21698D2223867A6100C2A857 /* Extension */ = {
+		21698D2223867A6100C2A857 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				21698D2323867A9700C2A857 /* Color+extension.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2194D6F9238691F20063A9B8 /* Networks */ = {
@@ -128,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B6AD4EB3238EA4860060A532 /* Demo */,
-				21698D2223867A6100C2A857 /* Extension */,
+				21698D2223867A6100C2A857 /* Extensions */,
 				21FC0E5E2386718A00447119 /* Resource */,
 				21FC0E5F238671B900447119 /* Main */,
 				21698D2123867A3F00C2A857 /* Module */,
@@ -218,11 +220,20 @@
 		B6AD4EB3238EA4860060A532 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				B6E99931239000C80032BDC8 /* PrefixTools */,
 				B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */,
 				B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */,
 				B6AD4EB8238EAA0C0060A532 /* Operator.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		B6E99931239000C80032BDC8 /* PrefixTools */ = {
+			isa = PBXGroup;
+			children = (
+				B6E99932239003050032BDC8 /* Prefixtive.swift */,
+			);
+			path = PrefixTools;
 			sourceTree = "<group>";
 		};
 		F7EC20F99B83EABD65414ACE /* Pods */ = {
@@ -364,6 +375,7 @@
 				21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */,
 				2194D6FB238692040063A9B8 /* API.swift in Sources */,
 				B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */,
+				B6E99933239003050032BDC8 /* Prefixtive.swift in Sources */,
 				B620FDC9238AC01500B72D6D /* Banner.swift in Sources */,
 				B620FDC7238AB71200B72D6D /* NetworkTools.swift in Sources */,
 				219DC118238BBCF000F7E747 /* Recommand.swift in Sources */,
