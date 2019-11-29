@@ -60,6 +60,7 @@ class RxSwiftViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         UIView()
             .zy.color(UIColor.red)
             .zy.frame(CGRect(x: 100, y: 250, width: 100, height: 100))
@@ -71,6 +72,18 @@ class RxSwiftViewController: UIViewController {
         /// 1.双向绑定 VM 和 UI 
         /// 2. 用来做一个临时变量处理 后续操作
         _  = textFiled.rx.textInput <-> text
+        
+//        let textFiledValid = textFiled.rx.text.
+        let textFiledValid = textFiled.rx.text.orEmpty.map { (string) -> Bool in
+            return string.count > 10
+        }
+        
+        
+        // Binder 不会处理错误事件 ； 确保绑定都是在给定 Scheduler 上执行（默认 MainScheduler）
+        // ... : 可以防止多个  Binder
+        textFiledValid
+            .bind(to: label.rx.isHidden, label.rx.isHidden)
+            .disposed(by: disposeBag)
         
         
         
@@ -84,6 +97,7 @@ class RxSwiftViewController: UIViewController {
         .disposed(by: disposeBag)
 
         textFiled.text = "这是我修改的值"
+        textFiled.sendActions(for: .editingChanged)
         
         
         text.asObservable().subscribe(onNext: { string in
