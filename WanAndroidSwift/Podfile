@@ -18,5 +18,7 @@ target 'WanAndroidSwift' do
 #  pod 'Permission', '~> 2.0.4' #权限请求
   pod 'SPPermissions', '~> 5.0.9'
   pod 'SkyFloatingLabelTextField', '~> 3.7.0' # 浮动TextField
-
+  pod 'LLCycleScrollView', '~> 1.6.0' #banner
+  pod "ESPullToRefresh"
+  #PullToRefresh
 end

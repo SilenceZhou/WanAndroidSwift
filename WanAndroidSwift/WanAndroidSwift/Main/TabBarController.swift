@@ -16,7 +16,8 @@ class TabBarController: UITabBarController {
         
         setValue(TabBar(), forKeyPath: "tabBar")
         tabBar.barTintColor = UIColor.white
-        addChild("首页", "home",  RxSwiftViewController.self)
+//        addChild("首页", "home",  RxSwiftViewController.self)
+        addChild("首页", "home",  HomeViewController.self)
         addChild("项目", "project", ProjectViewController.self)
         addChild("动态", "dynamic",  DynamicViewController.self)
         addChild("标签", "tag",  TagViewController.self)

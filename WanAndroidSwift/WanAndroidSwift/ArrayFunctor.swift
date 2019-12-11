@@ -11,17 +11,17 @@ import UIKit
 
 extension Array {
     
-    func pure<A>(_ value: A) { [value] }
-    
-    infix operator <*> : AdditionPrecedence
-    func <*><A, B>(fn: [(A) -> [B]], value: [A]) -> [B] {
-        var arr: [B] = []
-        if fn.count == value.count {
-            for i in fn.startIndex..<fn.endIndex {
-                arr.append(fn[i](value))
-            }
-        }
-        
-    }
+//    func pure<A>(_ value: A) { [value] }
+//
+//    infix operator <*> : AdditionPrecedence
+//    static func <*><A, B>(fn: [(A) -> [B]], value: [A]) -> [B] {
+//        var arr: [B] = []
+//        if fn.count == value.count {
+//            for i in fn.startIndex..<fn.endIndex {
+//                arr.append(fn[i](value))
+//            }
+//        }
+//
+//    }
     
 }

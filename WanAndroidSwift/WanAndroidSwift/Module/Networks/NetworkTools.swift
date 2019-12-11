@@ -16,22 +16,19 @@ enum Errors: Error {
 class NetworkTools {
     
     
-    static func request<T : Convertible>(url: String,method: HTTPMethod = .get, parameters: Parameters? = nil) -> Observable<T>{
-        
+    static func request<T : Convertible>(url: String, method: HTTPMethod = .get, parameters: Parameters? = nil) -> Observable<T>{
         
         return Observable.create { (observer)-> Disposable in
             
             let request =  AF.request(url, method: method, parameters: parameters)
-            
             
             request.responseJSON { response in
                 
                 guard response.error == nil,
                     let dict = response.value ,
                     let jsons = JSON(dict).dictionaryObject else {
-                        
-                        print(response.value as Any)
-                        print(response.error as Any)
+                        // print(response.value as Any)
+                        // print(response.error as Any)
                         observer.onError(Errors.requestFailed)
                         return
                 }
@@ -40,11 +37,8 @@ class NetworkTools {
                 observer.onNext(models)
                 observer.onCompleted()
             }
+            // 创建不能马上销毁
            return  Disposables.create()
-            
-//            return Disposables.create {
-////                request.cancel()
-//            }
         }
     }
     
@@ -65,7 +59,9 @@ class NetworkTools {
     
     
     
-    
+    //########################################################
+    //   非Rx请求
+    //########################################################
     
     
     /// 首页banner
