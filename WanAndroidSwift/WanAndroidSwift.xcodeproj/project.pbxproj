@@ -31,6 +31,8 @@
 		B6AD4EB6238EA4D60060A532 /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */; };
 		B6AD4EB7238EA4D60060A532 /* RxSwiftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */; };
 		B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD4EB8238EAA0C0060A532 /* Operator.swift */; };
+		B6DE78D623A2774400656992 /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE78D523A2774400656992 /* ProjectCell.swift */; };
+		B6DE78D823A2803700656992 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE78D723A2803700656992 /* Styles.swift */; };
 		B6E99933239003050032BDC8 /* Prefixtive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E99932239003050032BDC8 /* Prefixtive.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		B6AD4EB4238EA4D60060A532 /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
 		B6AD4EB5238EA4D60060A532 /* RxSwiftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftViewController.xib; sourceTree = "<group>"; };
 		B6AD4EB8238EAA0C0060A532 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		B6DE78D523A2774400656992 /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		B6DE78D723A2803700656992 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		B6E99932239003050032BDC8 /* Prefixtive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefixtive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				21FC0E6D238672A400447119 /* HomeViewController.swift */,
+				B6DE78D523A2774400656992 /* ProjectCell.swift */,
+				B6DE78D723A2803700656992 /* Styles.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -379,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FC0E6A2386728C00447119 /* DynamicViewController.swift in Sources */,
+				B6DE78D823A2803700656992 /* Styles.swift in Sources */,
 				21698D2423867A9700C2A857 /* Color+extension.swift in Sources */,
 				B6AD4EB6238EA4D60060A532 /* RxSwiftViewController.swift in Sources */,
 				21FC0E5D23864A9800447119 /* TabBarController.swift in Sources */,
@@ -388,6 +395,7 @@
 				21FC0E682386728200447119 /* ProfileViewController.swift in Sources */,
 				21FC0E452386496D00447119 /* AppDelegate.swift in Sources */,
 				21FC0E6C2386729A00447119 /* ProjectViewController.swift in Sources */,
+				B6DE78D623A2774400656992 /* ProjectCell.swift in Sources */,
 				21FC0E472386496D00447119 /* SceneDelegate.swift in Sources */,
 				2194D6FB238692040063A9B8 /* API.swift in Sources */,
 				B6AD4EB9238EAA0C0060A532 /* Operator.swift in Sources */,

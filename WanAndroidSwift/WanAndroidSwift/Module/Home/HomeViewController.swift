@@ -16,25 +16,23 @@ class HomeViewController: UIViewController {
     lazy var tableView: UITableView = { [unowned self] in
         
         let tableView = UITableView(frame: self.view.bounds, style: .plain)
+        tableView.separatorStyle = .none
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         return tableView
     }()
     
-    
     lazy var bannerView: LLCycleScrollView = {
         
         let bannerView = LLCycleScrollView.llCycleScrollViewWithFrame(CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 200))
-        
+        bannerView.pageControlBottom = 20
         bannerView.autoScroll = true // 自动滚动
         bannerView.infiniteLoop = true // 无线滚动
         bannerView.autoScrollTimeInterval = 3.0 // 滚动间隔
-        // 等待数据状态显示的占位图
-        // bannerView.placeHolderImage = #UIImage
-
-        // 如果没有数据的时候，使用的封面图
-        //bannerView.coverImage = #UIImage
+        
+        // bannerView.placeHolderImage = #UIImage // 等待数据状态显示的占位图
+        //bannerView.coverImage = #UIImage // 如果没有数据的时候，使用的封面图
 
         // 设置图片显示方式=UIImageView的ContentMode
         bannerView.imageViewContentMode = .scaleToFill
@@ -60,8 +58,6 @@ class HomeViewController: UIViewController {
 
         // 背景色
         bannerView.collectionViewBackgroundColor = UIColor.black.withAlphaComponent(0.3)
-        
-        
         
         return bannerView
     }()
